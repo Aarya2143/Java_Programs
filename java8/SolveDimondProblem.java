@@ -16,6 +16,7 @@ public class SolveDimondProblem implements abc, xyz {
     @Override
     public void show() {
         xyz.super.show();
+        abc.super.show();
     }
 
     public static void main(String[] args) {

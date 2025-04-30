@@ -1,7 +1,5 @@
 package map.Methods;
 
-import map.Ha;
-
 import java.util.HashMap;
 
 public class Clone {

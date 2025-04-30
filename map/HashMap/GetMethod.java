@@ -1,10 +1,12 @@
 package map.HashMap;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class GetMethod {
     public static void main(String[] args) {
-        HashMap<String, String> obj = new HashMap<>();
+      //  HashMap<String, String> obj = new HashMap<>();
+        Map<String,String> obj = new HashMap<>();
         obj.put("A","a");
         obj.put("B","");
         obj.put("C","c");

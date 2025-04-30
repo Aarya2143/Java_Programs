@@ -8,4 +8,6 @@ public class Stream {
         Arrays.stream(a);
         System.out.println(Arrays.toString(a));
     }
+
+
 }

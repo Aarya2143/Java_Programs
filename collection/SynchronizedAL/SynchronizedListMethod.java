@@ -1,4 +1,4 @@
-package collection.SynchronizedAL;
+package collection.synchronizedAL;
 
 import java.util.ArrayList;
 import java.util.Collections;
