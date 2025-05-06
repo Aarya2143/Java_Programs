@@ -9,6 +9,7 @@ public class Merge2UnsortInto1withDistinct {
     public static void main(String[] args) {
         int[] a = {4,2,3,1,2};
         int[] b = {6,7,5,8,5};
+
         Set<Integer> merged = new LinkedHashSet<>();
 
         for(Integer s : a){
@@ -20,6 +21,7 @@ public class Merge2UnsortInto1withDistinct {
         List<Integer> result = new ArrayList<>(merged);
         Collections.sort(result);
         System.out.println(result);
+
 
         /*int[] a = {4,2,3,1,2};
         int[] b = {6,7,5,8,5};

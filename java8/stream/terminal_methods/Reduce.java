@@ -8,8 +8,14 @@ public class Reduce {
         List<Integer> in = Arrays.asList(1,2,3,4,5);
 
         Object c = in.stream()
-                .reduce(3,(a,b) -> a+b);
+                .filter(n -> n%2 == 0)
+                .reduce(0,(a,b) -> a+b);
 
-        System.out.println(c);
+        Object d = in.stream()
+                .filter(n -> n%2 != 0)
+                .reduce(0,(sum,x)->sum+x);
+
+        System.out.println("sum of all even number: "+c);
+        System.out.println("sum of all odd numbers: "+d);
     }
 }
