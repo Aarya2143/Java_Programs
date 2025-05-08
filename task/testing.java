@@ -17,10 +17,3 @@ public class testing {
 //        s.add(null,true);
     }
 }
-
-
-class demo{
-    public static void main(String[] args) {
-        System.out.println(args[6]);
-    }
-}
